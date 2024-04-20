@@ -1,0 +1,62 @@
+Task 1:
+  940  cd cs131
+  941  mkdir Assignment3
+  942  ls
+  943  cd Assignment3/
+  944  touch Assignment3.txt
+  945  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/last.fake
+  946  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/passwd.fake
+  947  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/ps.fake
+  948  ls
+  949  man last
+  950  cd cs131/
+  951  ls
+  952  cs Assignment3/
+  953  cd A
+  954  cd Assignment3/
+  955  ls
+  956  clear
+  957  ls
+  958  cat last.fake 
+  959  cat passwd.fake 
+  960  cat ps.fake 
+  961  wc -l last.fake 
+  962  grep 'sp24' last.fake > lastsp24.fake
+  963  wc -l lastsp24.fake
+  964  ls
+  965  vi Assignment3.txt 
+  966  cat lastsp24.fake
+
+Task 2:  
+  967  awk 'BEGIN {print "The list of people who worked on Sunday are:"} /Sun/ {print $1} END {print "Kudos to those people for putting in the work"}' lastsp24.fake | uniq
+  968  vi Assignment3.txt 
+Task 3:
+  980  awk '/(23:|[0][0-3]:[0-5][0-9])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
+  981  vi Assignment3.txt 
+Task 4:
+  982  awk '/(0[5-9]:|[0][0-8]:[0-5][0-9])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
+  983  vi Assignment3.txt
+Task 5: 
+  985  awk '/^t/ {print $1}' lastsp24.fake | sort | uniq
+  986  vi Assignment3.txt
+Task 6: 
+  987  awk -F: '/^a/ && ($3 %2  ==0) {print $1}' passwd.fake 
+  988  vi Assignment3.txt 
+  989  cat passwd.fake 
+  990  clear
+Task 7:
+  991  sed 's/[a-zA-Z0-9[:space:]]//g' passwd.fake | sort -u
+  992  vi Assignment3.txt
+Submission: 
+  993  cd cs131/
+  994  cd Assignment3/
+  995  ls
+  998  cd cs131/
+  999  cs Assignment3
+ 1000  cd Assignment3/
+ 1001  ls
+ 1004  vi Assignment3.txt 
+ 1012  ls
+ 1013  vi cmds.log 
+ 1014  rm cmds.log 
+ 1015  history >cmds.log
