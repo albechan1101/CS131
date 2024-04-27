@@ -1,0 +1,1000 @@
+   11  clear
+   12  git init
+   13  ls
+   14  git status
+   15  git add counts.txt
+   16  git status
+   17  git history
+   18  vi cmds.log
+   19  vi bash_history
+   20  history > cmds.log
+   21  ls
+   22  git add cmds.log
+   23  git status
+   24  git commit -m "a commit"
+   25  git checkout my-new-branch
+   26  git branch
+   27  git@github.com:albechan1101/cs131.git
+   28  https://github.com/albechan1101/cs131.git
+   29  git clone https://github.com/albechan1101/cs131.git
+   30  git push origin main
+   31  git push --set-upstream origin master
+   32  git push origin main
+   33  git@github.com:albechan1101/cs131.git
+   34  git remote add origin git@github.com:albechan1101/cs131.git
+   35  git push -u origin main
+   36  git push -u origin master
+   37  git checkout main
+   38  ls
+   39  cat counts.txt 
+   40  git remote -v
+   41  git remote set-url origin git@github.com:USERNAME/REPONAME.git
+   42  git@github.com:albechan110
+   43  git remote add origin git@github.com:albechan1101/cs131.git
+   44  git remote remove https://github.com/albechan1101/cs131.git
+   45  git remote remove origin
+   46  git remote -v
+   47  git remote add origin git@github.com:albechan1101/cs131.git
+   48  git push -u origin main
+   49  git checkout -b master
+   50  git branch
+   51  git checkout -b my-new-branch
+   52  git branch
+   53  git push -u origin master
+   54  git push origin my-new-branch
+   55  git branch -D master
+   56  git branch
+   57  git reset HEAD
+   58  git status
+   59  git -b master
+   60  git branch
+   61  git checkout -b master
+   62  git branch
+   63  git push -u origin master
+   64  git branch
+   65  git status
+   66  git push -u origin master
+   67  git fetch origin
+   68  git checkout master
+   69  git branch
+   70  git push origin my-new-branch
+   71  git push -u origin master
+   72  git push origin my-new-branch
+   73  git remote add origin git@github.com:albechan1101/cs131.git
+   74  git push -u origin master
+   75  git checkout -b my-new-branch
+   76  git checkout my-new-branch
+   77  git branch
+   78  git push origin my-new-branch
+   79  git push -u origin master
+   80  git push origin my-new-branch
+   81  wget https://counts.com/counts.txt
+   82  git push origin my-new-branch
+   83  git init
+   84  touch counts.txt
+   85  ls
+   86  git add counts.txt
+   87  git add cmds.log
+   88  git status
+   89  git inti
+   90  git init
+   91  mkdir worksheet2
+   92  cd worksheet2
+   93  git init
+   94  ls
+   95  mv counts.txt
+   96  mv counts.txt worksheet2
+   97  cd
+   98  mv counts.txt worksheet2
+   99  mv cmds.log worksheet2
+  100  cd worksheet2
+  101  ls
+  102  vi counts.txt 
+  103  vi cmds.log 
+  104  git status
+  105  git add cmds.log 
+  106  git add counts.txt 
+  107  git status
+  108  commit -m "my commit"
+  109  git commit -m "my commit"
+  110  git config --global user.name "Your Name"albechan1101"
+  111  adfadf
+  112  clear
+  113  "
+  114  git config --global user.name "albechan1101"
+  115  git commit -m "my commit"
+  116  git commit -m "This is my commit"
+  117  git branch
+  118  git checkout -b my-new-branch
+  119  git branch
+  120  git remote add origin git@github.com:albechan1101/cs131.git
+  121  git push -u origin master
+  122  git push origin my-new-branch
+  123  mkdir Assignment1
+  124  cd Assignment1
+  125  echo Shell
+  126  echo $SHELL
+  127  echo $HOME
+  128  id
+  129  ls
+  130  adfadf
+  131  ls
+  132  cd Assignment1/
+  133  ls
+  134  echo $SHELL
+  135  echo $HOME
+  136  id
+  137  mkdir myDir
+  138  chmod u-w myDir
+  139  mkdir myDir2
+  140  mkdir myDir3
+  141  pwd
+  142  cd ~/Assignment1/myDir2
+  143  pwd
+  144  touch myFile.txt
+  145  mv myFile.txt ../myDir3/
+  146  man free
+  147  free -m
+  148  cat /etc/os-release
+  149  ls -l
+  150  ls -l /etc/os-release 
+  151  pwd
+  152  ls
+  153  cd Assignment1/
+  154  vi Assignment1.txt
+  155  echo $SHELL
+  156  echo $SHELL >> Assignment1.txt 
+  157  cat Assignment1.txt 
+  158  vi Assignment1.txt 
+  159  echo $HOME >> Assignment1.txt 
+  160  vi Assignment1.txt 
+  161  id
+  162  id >> Assignment1.txt 
+  163  vi Assignment1.txt 
+  164  ls
+  165  man chmod
+  166  chmod u-w myDir
+  167  cd myDir
+  168  ls
+  169  ls -l
+  170  cd Assignment1
+  171  cd..
+  172  cd ..
+  173  ls
+  174  vi Assignment1.txt 
+  175  cd myDir
+  176  touch file.txt
+  177  cd ..
+  178  cd myDir2
+  179  ls
+  180  cd myDir3
+  181  cd ..
+  182  cd myDir3
+  183  ls
+  184  rm myFile.txt 
+  185  ls
+  186  cd ..
+  187  ls
+  188  rmdir myDir2
+  189  rmdir myDir3
+  190  ls
+  191  mkdir myDir2
+  192  mkdir myDir3
+  193  cd myDir2
+  194  touch myFile.txt
+  195  mv myFile.txt ../myDir3/
+  196  cd ..
+  197  cd myDir3
+  198  ls
+  199  man free
+  200  free -m
+  201  cat /etc/os-release
+  202  cd ..
+  203  cat /etc/os-release >> As
+  204  cat /etc/os-release >> Assignment1.txt 
+  205  ls
+  206  rm As
+  207  ls
+  208  vi Assignment1.txt 
+  209  ls -l /etc/os-release
+  210  ls -l /etc/os-release >> Assignment1.txt 
+  211  vi Assignment1.txt 
+  212  history > cmds.log
+  213  cat cmds.log
+  214  vi cmds.log 
+  215  clear
+  216  ls
+  217  cat Assignment1.txt 
+  218  vi cmds.log 
+  219  vim cmds.log 
+  220  git status
+  221  git add Assignment1.txt 
+  222  git add cmds.log 
+  223  git status
+  224  git commit -m "Assignment1"
+  225  git branch
+  226  git@github.com:albechan1101/cs131.git
+  227  git remote add origin git@github.com:albechan1101/cs131.git
+  228  git push -u origin master
+  229  git push -u origin my-new-branch
+  230  git checkout -b master
+  231  git checkout master
+  232  git branch
+  233  git push -u origin master
+  234  cd Assignment1/
+  235  ls
+  236  cd ..
+  237  ls
+  238  Assignment1/
+  239  cd A
+  240  cd Assignment1/
+  241  ls
+  242  cd myDir2
+  243  ls
+  244  cd myDir 3
+  245  cd ..
+  246  cd myDir3
+  247  ls
+  248  cd ..
+  249  free -m
+  250  free - m >> file.txt
+  251  vi file.txt 
+  252  who
+  253  rm file.txt 
+  254  cd 
+  255  ls
+  256  cd Assignment1/
+  257  ls
+  258  cat /etc/os-release
+  259  free -m
+  260  cd Assignment1/
+  261  mkdir Assignment2
+  262  cd Assignment2
+  263  touch Assignment2.txt
+  264  find /etc -type f > one.txt 2> two.txt
+  265  vi Assignment2.txt 
+  266  cat one.txt
+  267  cat two.txt
+  268  vi Assignment2.txt 
+  269  ls
+  270  cd..
+  271  cd ..
+  272  cd Assignment2
+  273  ls
+  274  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  275  ls
+  276  cat Global\ YouTube\ Statistics.csv
+  277  clear
+  278  ls
+  279  cd Assignment2
+  280  ls
+  281  Which [Month, Year] had the most (top 3) YouTube channels created   [ Use the created year and created month columns ] 
+  282  Your answer should contain what commands you used along with the output. 
+  283  Requirement: You should apply cut sort and uniq commands to accomplish this task. You can use commands in addition to these as well but solve the actual problem using cut sort and uniq.
+  284  Example :
+  285  As per the Dataset, Top 3 [Month, Year] with the most number of YouTube channels created were :
+  286  1. December,2025 with 35 channels  
+  287  2. December,2060 with 20 channels 
+  288  3. January,1998 with 16 channels
+  289  [ Replace months and years above with your answer ]
+  290  The command(s) used to find it was this: _______________
+  291  Explain the command along with the parameters used and the reason for using them.
+  292  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  293  ls
+  294  vi Global\ YouTube\ Statistics.csv 
+  295  cat Global\ YouTube\ Statistics.csv 
+  296  clear
+  297  cut -d ',' -f19,20 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -rn | head -n 3
+  298  cut -d ',' -f20,21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -rn | head -n 3
+  299  vi Assignment2.txt 
+  300  ps -u$(albertchan)
+  301  vi Assignment2.txt 
+  302  ps -u $(whoami)
+  303  ps -u $(albertchan)
+  304  ps -u $(a)
+  305  whoami
+  306  ps -u $(albertsp244)
+  307  ps -u $(albertsp24)
+  308  ps -u $(whoami)
+  309  vi Assignment2.txt 
+  310  cd Assignment2
+  311  ls
+  312  vi Assignment2.txt 
+  313  ps -u $(whoami)
+  314  cd Assignment2
+  315  vi Assignment2.txt 
+  316  cd ..
+  317  ps -u $(whoami)
+  318  cd Assignment2
+  319  vi Assignment2.txt 
+  320  ps -p 1
+  321  vi Assignment2.txt 
+  322  vi file.txt
+  323  cd Assignment2
+  324  vi Assignment2.txt 
+  325  ps -u $(whoami)
+  326  vi Assignment2.txt 
+  327  cd Assignment2
+  328  ls
+  329  vi Assignment2.txt 
+  330  history > cmds.log
+  331  vi cmds.log 
+  332  ps aux
+  333  vi Assignment2.txt 
+  334  git init
+  335  git status
+  336  git add Assignment2.txt 
+  337  git add cmds.log 
+  338  git status
+  339  git commit -m "Assignment 2"
+  340  git branch
+  341  git remote add origin git@github.com:albechan1101/cs131.git
+  342  git push -u origin master
+  343  git@github.com:albechan1101/cs131.git
+  344  git push -u origin my-new-branch
+  345  git branch
+  346  git push --set-upstream origin master
+  347  git checkout -b my-new-branch
+  348  git branch
+  349  git push -u origin master
+  350  git push -u origin my-new-branch
+  351  error: failed to push some refs to 'github.com:albechan1101/cs131.git'
+  352  hint: Updates were rejected because the remote contains work that you do
+  353  hint: not have locally. This is usually caused by another repository pushing
+  354  hint: to the same ref. You may want to first integrate the remote changes
+  355  hint: (e.g., 'git pull ...') before pushing again.
+  356  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  357  git push -u origin main
+  358  git push
+  359  git push --set-upstream origin my-new-branch
+  360  clear
+  361  git remote add origin https://github.com/albechan1101/cs131.git
+  362  git remeote add origin git@github.com:albechan1101/cs131.git
+  363  git remote add origin git@github.com:albechan1101/cs131.git
+  364  git remote set-url origin git@github.com:albechan1101/cs131.git
+  365  git push -u origin master
+  366  git push -u origin main
+  367  git push -u origin master my-new-branch
+  368  git pull
+  369  git push -u origin master
+  370  git push -u origin/master
+  371  git push -u origin my-new-branch
+  372  git branch --set-upstream-to=origin/<branch> my-new-branch
+  373  git pull master
+  374  clear
+  375  git remote add origin git@github.com:albechan1101/CS131.2.git
+  376  git remote remove origin
+  377  git remote add origin git@github.com:albechan1101/CS131.2.git
+  378  git branch -M main
+  379  git push -u origin main
+  380  ls
+  381  cat Global\ YouTube\ Statistics.csv
+  382  map sort
+  383  sort map
+  384  grep 'United States' Global\ YouTube\ Statistics.csv | sort -t ',' -k 15 -n -r | head -n 1
+  385  ls
+  386  pwd
+  387  ls
+  388  clear
+  389  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' k 7
+  390  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' k 7 -n -r
+  391  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k 7 -n -r
+  392  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k 7 -n -r | head -n 1
+  393  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k 15 -n -r | head -n 1
+  394  cleawr
+  395  clear
+  396  sort -t ',' -k 15nr Global\ YouTube\ Statistics.csv > sorted_monthly_earnings.csv
+  397  cat sorted_monthly_earnings.csv 
+  398  sort -t ',' -k 15nr Global\ YouTube\ Statistics.csv > sorted_monthly_earnings.txt
+  399  cat sorted_monthly_earnings.txt
+  400  cat sorted_monthly_earnings.txt | grep 'United States' | head -n 1
+  401  cat Global\ YouTube\ Statistics.csv
+  402  cat sorted_monthly_earnings.txt | grep 'United States' | head -n 1
+  403  cat sorted_monthly_earnings.txt | grep 'United Kingdom' | head -n 1
+  404  cat sorted_monthly_earnings.txt | grep 'Inida' | head -n 1
+  405  cat sorted_monthly_earnings.txt | grep 'India' | head -n 1
+  406  clear
+  407  mkdir worksheet3
+  408  cd worksheet
+  409  cd worksheet3
+  410  vi w23.txt
+  411  cd worksheet3
+  412  cd ..
+  413  sort -t ',' -
+  414  cat G
+  415  cat Global\ YouTube\ Statistics.csv
+  416  clear
+  417  sort -t ',' -k 3nr Global\ YouTube\ Statistics.csv > sorted_subscribers.csv
+  418  ls
+  419  grep 'Sports' sorted_subscribers.csv | head -n 1
+  420  grep 'Education' sorted_subscribers.csv | head -n 1
+  421  grep 'Entertainment' sorted_subscribers.csv | head -n 1
+  422  cd worksheet3
+  423  vi w23.txt 
+  424  grep 'Sports' sorted_subscribers_edited.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+  425  ls
+  426  grep 'Sports' sorted_subscribers.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+  427  cd worksheet3
+  428  vi w23.txt 
+  429  :x
+  430  cd worksheet3
+  431  vi w23.txt 
+  432  cd ..
+  433  grep 'Education' sorted_subscribers.csv  | head -n 1
+  434  grep 'Education' sorted_subscribers.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+  435  sort -t ',' -k 2nr Global\ YouTube\ Statistics.csv > sorted_subscribers.2.csv
+  436  grep 'Education' sorted_subscribers.2.csv | head -n 1 | awk -F ',' '{print $3, $2}'
+  437  grep 'Sports' sorted_subscribers.2.csv | head -n 1
+  438  grep 'Entertainment' sorted_subscribers.2.csv | head -n 1
+  439  cat sorted_subscribers.csv
+  440  grep -i ',Entertainment,' sorted_subscribers.csv | head -n 1
+  441  grep -i ',Education,' sorted_subscribers.csv | head -n 1
+  442  cd worksheet3
+  443  vi
+  444  vi w23.txt 
+  445  history > cmds.log
+  446  vi cmds.log
+  447  history > cmds.log
+  448  vi cmds.log 
+  449  git init
+  450  git status
+  451  git add cmds.log
+  452  git add w23.txt 
+  453  git status
+  454  git commit -m "worksheet3"
+  455  git branch
+  456  git push -u origin master
+  457  git remote add origin git@github.com:albechan1101/cs131.git
+  458  git push -u origin master
+  459  git remote rm origin
+  460  git remote add origin git@github.com:albechan1101/CS131.2.git
+  461  git push -u origin master
+  462  ls
+  463  cd cs 131
+  464  cd cs131
+  465  git status
+  466  ls
+  467  git remote -v
+  468  touch newfile.txt
+  469  git status
+  470  git init
+  471  git add newfile.txt
+  472  git commit -m "new file"
+  473  git status
+  474  git config -list
+  475  git config --list
+  476  git config --global user.email albert.chan01@sjsu.edu
+  477  git config --list
+  478  git commit -m "new file"
+  479  git add newfile.txt 
+  480  git commit -m "new file"
+  481  git status
+  482  ls
+  483  git push
+  484  git push --set-upstream origin main
+  485  cd ~/.ssh
+  486  cat id_rsa.pub
+  487  ls ldr
+  488  ls -ldr
+  489  ls -ltr
+  490  cd ..\
+  491  cd ..
+  492  ls
+  493  git status
+  494  pwd
+  495  cd cs131/
+  496  git status
+  497  cd ..
+  498  git status
+  499  pwd
+  500  ls
+  501  git add cs131/
+  502  ls
+  503  ls -a
+  504  cd cs131
+  505  ls -a
+  506  ls
+  507  vi ws4.txt
+  508  nano ~/.bashrc
+  509  l
+  510  w
+  511  vi ws4.txt
+  512  ls
+  513  mkdir Worksheet4
+  514  cd Worksheet4/
+  515  touch subscribers/United_States.txt
+  516  vi subscribers/United_States.txt
+  517  grep 'United States' 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' | sort -n > Subscribers/United_States
+  518  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  519  grep 'United States' 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' | sort -n > Subs
+  520  vi Subs
+  521  ls
+  522  rm Subs
+  523  nano ~/.bashrc
+  524  l
+  525  w
+  526  mkdir -p Worksheet4/Subscribers
+  527  ls
+  528  grep 'United States' 'Global YouTube Statistics.csv' | awk -F ',' '{print $3}' | sort -n > Subscribers/United_States.txt
+  529  touch Subscribers/United_States.txt
+  530  vi Subscribers/United_States.txt
+  531  grep 'United States' 'Global YouTube Statistics.csv' | awk -F ',' '{print $3}' | sort -n > Subscribers/United_States.txt
+  532  ls
+  533  grep 'United States' 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' | sort -n > Subscribers/United_States.txt
+  534  grep 'United States' 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' | sort -n > Subscribers/United_States
+  535  cd Worksheet4/Subscribers/
+  536  grep 'United States' 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' | sort -n > Subscribers/United_States.txt
+  537  touch Subscribers/United_States.txt
+  538  touch file.txt
+  539  nano ~/.bashrc
+  540  source ~/.bashrc
+  541  l
+  542  w
+  543  script ws4.txt
+  544  rm ws4.txt
+  545  script ws4.txt
+  546  ls
+  547  cat ws4.txt
+  548  vi ws4.txt
+  549  rm ws4.txt 
+  550  clear
+  551  ls
+  552  rmdir Worksheet4/
+  553  rm -r Worksheet4/
+  554  clear
+  555  script ws4.txt
+  556  rm ws4.txt 
+  557  clear
+  558  touch hello.sh
+  559  time hello.sh 
+  560  time date.sh
+  561  date
+  562  clear
+  563  echo "Hello, world" | sed 's/world/Universe/'
+  564  echo "Hello, world" | sed 's/world/Albert/'
+  565  cat myfile | sed '....'
+  566  vi .bash_profile
+  567  l
+  568  w
+  569  cd ~
+  570  ls
+  571  l
+  572  w
+  573  vi .bash_profile
+  574  ls
+  575  cd Worksheet4/
+  576  ls
+  577  cd Subscribers/
+  578  pwd
+  579  grep 'United States' 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' | sort -n > Subscribers/United_States
+  580  pwd
+  581  cd ~
+  582  cp 'Global YouTube Statistics.csv' Worksheet4
+  583  cd Worksheet4
+  584  ls
+  585  grep 'United States' 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' | sort -n > Subscribers/United_States
+  586  grep 'India' 'Global YouTube Statistics.csv' | awk -F',' '{print $3}' | sort -n > Subscribers/India
+  587  ls
+  588  cd Subscribers/
+  589  ls
+  590  cat India
+  591  cd ..
+  592  ls
+  593  awk '{ total += $1; count++ } END { print total/count }' Subscribers/United_States > ws4_means.txt
+  594  awk '{ total += $1; count++ } END { print total/count }' Subscribers/India >> ws4_means.txt
+  595  ls
+  596  ls
+  597  cd Worksheet4
+  598  ls
+  599  cd Subscribers
+  600  ls
+  601  rm file.txt
+  602  ls
+  603  cd ..
+  604  clear
+  605  script ws4.txt
+  606  ls
+  607  vi ws4.txt
+  608  ls
+  609  git status
+  610  pwd
+  611  ls
+  612  cd Worksheet3
+  613  cd ~
+  614  git status
+  615  cd Worksheet4/
+  616  cd Subscribers/
+  617  git status
+  618  ls
+  619  cd ..
+  620  git status
+  621  ls
+  622  git add ws4_means.txt
+  623  git status
+  624  ls
+  625  git add ws4.txt
+  626  git status
+  627  git restore --staged ../cs131
+  628  git status
+  629  git add United_States
+  630  git commit -m "Worksheet4"
+  631  git branch
+  632  git push -u origin master
+  633  git remote add origin git@github.com:albechan1101/cs131.git
+  634  git remote remove origin
+  635  git remote add origin git@github.com:albechan1101/cs131.git
+  636  git push -u origin master
+  637  git@github.com:albechan1101/CS131.2.git
+  638  git remote add origin git@github.com:albechan1101/CS131.2.git
+  639  vi ws4.txt
+  640  vi ws4_means.txt
+  641  pwd
+  642  cd Subscribers/
+  643  vi United_States 
+  644  vi India 
+  645  git init
+  646  touch newfile.txt
+  647  ls
+  648  rm newfile.txt 
+  649  ls
+  650  rmdir worksheet1
+  651  rm -r worksheet1
+  652  mkdir Worksheet1
+  653  cd Worksheet1
+  654  touch newfile.txt
+  655  git status
+  656  git add newfile.txt 
+  657  git status
+  658  git commit -m "my first commit"
+  659  git branch
+  660  git remote add origin git@github.com:albechan1101/CS131.git
+  661  git remote remove origin
+  662  git remote add origin git@github.com:albechan1101/CS131.git
+  663  git push -u origin main
+  664  vi newfile.txt 
+  665  cat newfile.txt 
+  666  git status
+  667  git add newfile.txt 
+  668  git status
+  669  ls
+  670  cd ..
+  671  git status
+  672  git add Worksheet1
+  673  git status
+  674  git add Assignment1
+  675  git status
+  676  git commit -m "Test"
+  677  git push -u origin main
+  678  git remote add origin git@github.com:albechan1101/CS131.git
+  679  git remote remove origin
+  680  git remote add origin git@github.com:albechan1101/CS131.git
+  681  git push -u origin main
+  682  cleawr
+  683  clearw
+  684  clear
+  685  ls
+  686   rm Global\ YouTube\ Statistics.csv
+  687  rm Global\ YouTube\ Statistics.csv.
+  688  rm Global\ YouTube\ Statistics.csv.1
+  689  rm Global\ YouTube\ Statistics.csv.2 
+  690  rm hello.sh 
+  691  rm index.html 
+  692  rm cs131
+  693  rm -rf Assignment1
+  694  rm -rf Assignment2
+  695  rm -rf Worksheet1
+  696  rm -rf worksheet1
+  697  rm -rf worksheet2
+  698  rm -rf worksheet3
+  699  rm -rf worksheet4
+  700  ls
+  701  rm sorted_monthly_earnings.csv
+  702  rm sorted_monthly_earnings.txt 
+  703  rm sorted_subscribers.2.csv 
+  704  rm sorted_subscribers.csv 
+  705  ls
+  706  rm -rf cs131
+  707  rm myproject/
+  708  rm -rf myproject/
+  709  rm tryDir/
+  710  rm -rf tryDir/
+  711  rm -rf Worksheet4/
+  712  ls
+  713  rm spotify 
+  714  ls
+  715  rm -rf .git
+  716  clear
+  717  mkdir worksheet1
+  718  cd worksheet1/
+  719  touch newfile.txt
+  720  cd ..
+  721  ls
+  722  git status
+  723  git init
+  724  git status
+  725  git add worksheet1/
+  726  git status
+  727  git commit -m "my first commit"
+  728  git branch
+  729  git remote add origin git@github.com:albechan1101/CS131.git
+  730  git push -u origin master
+  731  git remote remove origin
+  732  ls
+  733  git status
+  734  git rm worksheet1
+  735  rem -r worksheet1/
+  736  rm -r worksheet1/
+  737  ls
+  738  mkdir worksheet1
+  739  git status
+  740  git add worksheet1/
+  741  git status
+  742  ls
+  743  lslslsls
+  744  mkdir test
+  745  git restore -- staged worksheet1/
+  746  ls
+  747  git status
+  748  git add test
+  749  git status
+  750  git add test
+  751  git status
+  752  ls
+  753  git status
+  754  git restore worksheet1/
+  755  git restore worksheet1/newfile.txt
+  756  rm worksheet1/
+  757  rm -r worksheet1/
+  758  clear
+  759  git statu
+  760  git status
+  761  git commit -m "worksheet1"
+  762  git checkout -b my-new-branch
+  763  git remote remove origin
+  764  git remote add origin git@github.com:albechan1101/cs131.git
+  765  git push -u origin master
+  766  git status
+  767  mkdir Worksheet1
+  768  git status
+  769  cd Worksheet1/
+  770  git status
+  771  clear
+  772  ls
+  773  cd ..
+  774  ls
+  775  git status
+  776  cd Worksheet1/
+  777  touch file.txt
+  778  ls
+  779  cd ..
+  780  git status
+  781  git add Worksheet1/
+  782  git status
+  783  git commit -m "my first commit"
+  784  git branch
+  785  git push -u origin master
+  786  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  787  ls
+  788  Worksheet2
+  789  mkdir Worksheet2
+  790  cd Worksheet2
+  791  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  792  ls
+  793  grep 'United States' Global\ YouTube\ Statistics.csv 
+  794  grep 'Music' Global\ YouTube\ Statistics.csv 
+  795  grep 'United States' Global\ YouTube\ Statistics.csv >counts.txt
+  796  ls
+  797  vi counts.txt 
+  798  grep -c 'Music' Global\ YouTube\ Statistics.csv > counts.txt
+  799  vi counts.txt 
+  800  cd ..
+  801  clear
+  802  git add Worksheet2
+  803  git status
+  804  git commit -m "worksheet2"
+  805  git branch
+  806  git push -u origin master
+  807  git remote add origin git@github.com:albechan1101/cs131.git
+  808  git push -u origin master
+  809  ls
+  810  rm -r Worksheet1
+  811  rm -r Worksheet2
+  812  mkdir cs131
+  813  cd cs131
+  814  mkdir worksheet1
+  815  rm -rf .git
+  816  git init
+  817  ls
+  818  git status
+  819  git add worksheet1/
+  820  git status
+  821  cd worksheet1
+  822  history > cmds.log
+  823  ls
+  824  cd ..
+  825  git status
+  826  git add worksheet1/
+  827  git status
+  828  git commit -m "Commit"
+  829  git branch
+  830  git remote remove origin
+  831  git remote add origin git@github.com:albechan1101/cs131.git
+  832  git branch -M main
+  833  git push -u origin main
+  834  clear
+  835  cd cs131
+  836  mkdir Assignment3
+  837  ls
+  838  cd Assignment3/
+  839  touch Assignment3.txt
+  840  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/last.fake
+  841  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/passwd.fake
+  842  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/ps.fake
+  843  ls
+  844  man last
+  845  cd cs131/
+  846  ls
+  847  cs Assignment3/
+  848  cd A
+  849  cd Assignment3/
+  850  ls
+  851  clear
+  852  ls
+  853  cat last.fake 
+  854  cat passwd.fake 
+  855  cat ps.fake 
+  856  wc -l last.fake 
+  857  grep 'sp24' last.fake > lastsp24.fake
+  858  wc -l lastsp24.fake
+  859  ls
+  860  vi Assignment3.txt 
+  861  cat lastsp24.fake 
+  862  awk 'BEGIN {print "The list of people who worked on Sunday are:"} /Sun/ {print $1} END {print "Kudos to those people for putting in the work"}' lastsp24.fake | uniq
+  863  vi Assignment3.txt 
+  864  man awk
+  865  awk -f BEGIN { print "Night Owls List:" } {if ($7>= 23 || $7 <= 4) print $1 } END { print "Night Owls are dope. Please ensure you get enoughj though."}
+  866  awk -f BEGIN { print "Night Owls List:" } {if ($7>= 23 || $7 <= 4) print $1 } END { print "Night Owls are dope. Please ensure you get enough though."}
+  867  vi task3script.sh
+  868  awk -f task3script.sh lastsp24.fake | sort | uniq 
+  869  vi task3script.sh
+  870  vi Assignment3.txt 
+  871  vi task4script.sh
+  872  awk -f task4script.sh  lastsp24.fake | sort | uniq
+  873  vi Assignment3.txt 
+  874  vi task4script.sh 
+  875  vi Assignment3.txt 
+  876  cd cs131/
+  877  cd Assignment3/
+  878  ls
+  879  vi Assignment3.txt 
+  880  awk '/^t/ {print $1}' lastsp24.fake | sort | uniq
+  881  vi Assignment3.txt 
+  882  awk -F: '/^a/ && ($3 %2  ==0) {print $1}' passwd.fake 
+  883  vi Assignment3.txt 
+  884  cat passwd.fake 
+  885  clear
+  886  sed 's/[a-zA-Z0-9[:space:]]//g' passwd.fake | sort -u
+  887  vi Assignment3.txt 
+  888  cd cs131/
+  889  cd Assignment3/
+  890  ls
+  891  awk '$NF ~ /2[3-4]:/ || $NF ~ /0[0-4]:/ {print $1}' lastsp24.fake | sort | uniq
+  892  awk '$NF ~ /0[5-9]:/ || $NF ~ /0[0-9]:/ {print $1}' lastsp24.fake | sort | uniq
+  893  cd cs131/
+  894  cs Assignment3
+  895  cd Assignment3/
+  896  ls
+  897  awk '{split($4,time,":"); if (time[1] >= 23 || time[1] <= 4) print $1}' lastsp24.fake | sort | uniq
+  898  awk '{split($4,time,":"); if (time[1] >= 5 && time[1] <= 9) print $1}' lastsp24.fake | sort | uniq
+  899  vi Assignment3.txt 
+  900  awk '/(23:|[0][0-3]:[0-5][0-9])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
+  901  vi Assignment3.txt 
+  902  awk '/(0[5-9]:|[0][0-8]:[0-5][0-9])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
+  903  vi Assignment3.txt 
+  904  cmds.log > history
+  905  History > cmds.log
+  906  history > cmds.log
+  907  ls
+  908  vi cmds.log 
+  909  rm cmds.log 
+  910  history >cmds.log
+  911  vi cmds.log 
+  912  vi Assignment3.txt 
+  913  vi cmds.log 
+  914  ls
+  915  rm history 
+  916  rm last.fake 
+  917  rm lastsp24.fake 
+  918  rm ps.fake 
+  919  rm passwd.fake 
+  920  rm task3script.sh 
+  921  rm task4script.sh 
+  922  ls
+  923  cd ..
+  924  git status
+  925  git add Assignment3/
+  926  git status
+  927  git commit -m "commit Assignment3"
+  928  git branch
+  929  git push -u origin main
+  930  ls
+  931  cd cs131/
+  932  ls
+  933  mkdir worksheet5
+  934  cd worksheet
+  935  cd worksheet5
+  936  touch noooo
+  937  rm noooo 
+  938  for 
+  939  SHELL
+  940  echo SHELL
+  941  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  942  ls
+  943  cat Global\ YouTube\ Statistics.csv 
+  944  Echo col 5,8
+  945  echo col 5,8
+  946  if cut -d ',' -f2 Global\ YouTube\ Statistics.csv | grep "United States" > USfile.txt; 
+  947  ls
+  948  if cut -d ',' -f2 Global\ YouTube\ Statistics.csv | grep "United States" > USfile.txt
+  949  cut -d ',' -f2 Global\ YouTube\ Statistics.csv | grep "United States" > USfile.txt
+  950  vi USfile.txt 
+  951  cat USfile.txt 
+  952  cut -d ',' -f8 Global\ YouTube\ Statistics.csv | grep "United States" > USfile.txt
+  953  cat USfile.txt 
+  954  clear
+  955  awk _F',' '$8 ~ /United States/' Global\ YouTube\ Statistics.csv > USfile.txt 
+  956  vi USfile.txt 
+  957  cat USfile.txt 
+  958  awk -F',' '$8 ~ /United States/' Global\ YouTube\ Statistics.csv > USfile.txt 
+  959  cat USfile.txt 
+  960  vi USfile.txt 
+  961  channelsclear
+  962  clear
+  963  rm USfile.txt 
+  964  for i in Global\ YouTube\ Statistics.csv 
+  965  awk -F',' '$8 ~ /United States/' Global\ YouTube\ Statistics.csv > USfile.txt 
+  966  vi USfile.txt 
+  967  type = "Music", "Entertainment", "Gaming", "Comedy"
+  968  type_list = ("Music", "Entertainment", "Gaming","Comedy")
+  969  type_list=("Music", "Entertainment", "Gaming","Comedy")
+  970  type="Music","Entertainment","Gaming","Comedy"
+  971  cat type
+  972  echo type
+  973  echo  $type
+  974  i=0
+  975  for ${type_list[i]} in USfile.txt; do grep ${type_list[i]} USfile.txt > ${type_list[i]}.txt; done
+  976  ls
+  977  wc -l USfile.txt 
+  978  for((i=1; i=313; i++)); do
+  979  file="USfile.txt" 
+  980  echo $file
+  981  for((i=1; i<=313; i++)); do line=$(sed -n "${i}p" "$file"); if echo "$line" | grep -q "Music"; then "word"> word.txt; done
+  982  ls
+  983  for ((i=1; i<=313; i++)); do line=$(sed -n "${i}p" "$file"); if echo "$line" | grep -q "Music" > Music.txt; fi
+  984  grep awk -F',' '$5 ~ /Music/' USfile.txt > Worksheet 5/United States/Music.txt
+  985  grep awk -F',' '$5 ~ /Music/' USfile.txt
+  986  awk -F',' '$5 ~ /Music/' USfile.txt > Worksheet 5/United States/Music.tx
+  987  awk -F',' '$5 ~ /Music/' USfile.txt > Music.txt
+  988  vi Music.txt 
+  989  awk -F',' '$5 ~ /Entertainment/' USfile.txt > Entertainment.txt
+  990  awk -F',' '$5 ~ /Gaming/' USfile.txt > Gaming.txt
+  991  awk -F',' '$5 ~ /Comedy/' USfile.txt > Comedy.txt
+  992  vi Entertainment.txt 
+  993  wc -l Music.txt > ws5.txt
+  994  wc -l Entertainment.txt > ws5.txt
+  995  wc -l Gaming.txt  > ws5.txt
+  996  wc -l Comedy.txt > ws5.txt
+  997  vi ws5.txt 
+  998  cd cs131/
+  999  cd worksheet5
+ 1000  ls
+ 1001  vi ws5.txt 
+ 1002  wc -l Music.txt > ws5.txt
+ 1003  vi ws5.txt 
+ 1004  wc -l Entertainment.txt
+ 1005  vi ws5.txt 
+ 1006  wc -l Gaming.txt  
+ 1007  vi ws5.txt 
+ 1008  wc -l Comedy.txt
+ 1009  vi ws5.txt 
+ 1010  history > cmds.log
